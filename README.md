@@ -12,3 +12,6 @@ I created this website to help my friends (and other students) understand the ba
 
 Thank you for visiting! I hope this website helps you learn, explore, and enjoy coding.
 
+Note:   The margins are set for large screens (like school computers), not smaller laptop screens, 
+        but there are laptop screen margins in the tags if required.
+        similar results are achived at 75% zoom in your browser for smaller screen
