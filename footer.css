@@ -1,0 +1,71 @@
+/*any element which starts with a '.' / dot is a class in html*/
+
+/*here i am importing fonts from google fonts for the procedure please check my website*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*this is the footer tag in html*/
+footer {
+    margin-top: 50px;
+    /*margin is the space outside an element's border*/
+    background-color: #a7ecff;
+    /*this property sets the background color to a light blue*/
+    color: black;
+    /*this property changes the color of text inside the element*/
+    padding: 40px 20px;
+    /*padding is the space inside an element's border*/
+    font-family: Google Sans Code;
+    /*font family will chage the font of the text in the element here it is to google sans code*/
+}
+
+/*here I am styling the attribute class in this case it is the big div in the footer*/
+.footer {
+    display: flex;
+    /*this property sets the display to a flex container which is modern for coding, it is like inline-block 
+    but with more customizability*/
+    justify-content: space-between;
+    /*this property aligns all the items such as images, buttons etc to have space between them equaly, of the element*/
+    text-align: center;
+    /*this property aligns all the text to the center of the element*/
+    max-width: 1200px;
+    /*all elements will grow out to any width which is confortable to them, but here it restrics them to grow more than 1200 px*/
+    margin: auto;
+    /*margin is the space outside an element's border, automaticaly balancung the margin so that there is a space around the element*/
+    flex-wrap: wrap;
+    /*work only if the display is flex, in display flex the elements stay in the same row, even if it is overflowing, but here 
+        elements will move to the next line, with flex wrap*/
+}
+
+/*here I am styling the attribute class in this case it is the div 'footer' and inside that specific div another div tag, so not all div tags
+get that property*/
+.footer div {
+
+    min-width: 200px;
+    /*all elements will grow out to any width which is confortable to them, but here it restrics them to be atleast 200 px*/
+    color: black;
+    /*this property changes the color of text inside the element*/
+    text-align: center;
+    /*this property aligns all the text to the center of the element*/
+}
+
+/*here I am styling the attribute class in this case it is the div 'footer' and inside that specific div the 'a' tag, so not all 'a' tags
+get that property*/
+.footer a {
+    color: black;
+    /*this property changes the color of text inside the element*/
+}
+
+/*here I am styling the attribute class in this case it is the div 'footer' and inside that specific div the 'ul' tag, so not all ul tags
+get that property*/
+.footer ul {
+    margin-right: 130px;
+    /*margin is the space outside an element's border*/
+    /*margin right should be 136 for big screens*/
+    /*margin right should be 130 for small screens*/
+}
+
+/*here I am styling the attribute class in this case it is the div 'sidebar' and inside that specific div the h2 tag, so not all h2 tags
+get that property*/
+.footer h2 {
+    margin-right: 100px;
+    /*margin is the space outside an element's border*/
+}

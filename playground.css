@@ -1,0 +1,86 @@
+/*any element which starts with a '.' / dot is a class in html*/
+
+/*here i am importing fonts from google fonts for the procedure please check my website*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*this is the text area tag in html, this is the text box you see at the top*/
+textarea {
+    width: 95%;
+    /*The width property sets how wide an element is.*/
+    height: 200px;
+    /*this property makes the element 200 px tall*/
+    margin-left: 25px;
+    /*margin is the space outside an element's border, here it is to the left of the element*/
+    border: 3px solid black;
+    /*this property adds a 2 pixel straight black broder to the element*/
+    border-radius: 10px;
+    /*this property adds a rounding to the element's border, making it more round*/
+    font-family: Google Sans Code;
+    /*font family will chage the font of the text in the element here it is to google sans code*/
+}
+
+/*this is the text iframe tag in html, this is the result code you see below the run button*/
+iframe {
+    width: 95%;
+    /*The width property sets how wide an element is.*/
+    height: 1000px;
+    /*this property makes the element 1000 px tall*/
+    margin-left: 25px;
+    /*margin is the space outside an element's border, here it is to the left of the element*/
+    border: 3px solid black;
+    /*this property adds a 2 pixel straight black broder to the element*/
+    border-radius: 10px;
+    /*this property adds a rounding to the element's border, making it more round*/
+}
+
+/*here I am styling the attribute class in this case it is the div 'main-content' which is whatevers between sidebar and footer,
+and inside that specific the button tag, so not all button tags get that property*/
+.main-content button {
+    margin-left: 790px;
+    /*margin is the space outside an element's border, here it is to the left of the element*/
+    /*margin left is 790px for the big screen*/
+    /*margin left is 560px for the small screen*/
+    margin-top: 40px;
+    /*margin is the space outside an element's border, here it is to the top of the element*/
+    margin-bottom: 40px;
+    /*margin is the space outside an element's border, here it is to the bottom of the element*/
+    font-size: 20px;
+    /*this property changes the font size of text inside the element*/
+    padding: 20px 20px;
+    /*padding is the space inside an element's border*/
+    background-color: #5dc5ff;
+    /*this property sets the background color to a medium blue*/
+    color: black;
+    /*this property changes the color of text inside the element*/
+    text-decoration: none;
+    /*this property can add underlines, oveline and other decorations to the text, here it 
+    is none because a tag sets a automatic underline decor that we don't want*/
+    border: none;
+    /*this property adds no broder to the element*/
+    border-radius: 10px;
+    /*this property adds a rounding to the element's border, making it more round*/
+    font-family: Grandstander;
+    /*font family will chage the font of the text in the element here it is to grandstander*/
+    font-weight: 800;
+    /*this property changes how bold the text is in an element high value means more bolder*/
+}
+
+/*here I am styling the attribute class in this case it is the div 'main-content' which is whatevers between sidebar and footer,
+and inside that specific the h1 tag, so not all h1 tags get that property*/
+.main-content h1 {
+    margin-top: 75px;
+    /*margin is the space outside an element's border, here it is to the top of the element*/
+    text-align: center;
+    /*this property aligns all the text to the center of the element*/
+    font-family: Google Sans Code;
+    /*font family will chage the font of the text in the element here it is to google sans code*/
+}
+
+/*this is the audio tag in html*/
+audio {
+    margin-left: 700px;
+    /*margin is the space outside an element's border, here it is to the left of the element*/
+    /*margin on big screen is 700px;*/
+    /*margin on small screen is 480px;*/
+}

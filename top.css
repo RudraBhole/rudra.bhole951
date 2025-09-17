@@ -1,0 +1,31 @@
+/*any element which starts with a '.' / dot is a class in html*/
+
+/*here i am importing fonts from google fonts for the procedure please check my website*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*here I am styling the attribute class in this case it is menu*/
+.content_top {
+    display: flex;
+    /*this property sets the display to a flex container which is modern for coding, it is like inline-block 
+    but with more customizability*/
+    justify-content: center;
+    /*this property aligns all the items such as images, buttons etc to the center of the element*/
+    margin-top: 100px;
+    /*margin is the space outside an element's border, here it is the top margin*/
+    text-align: center;
+    /*this property aligns all the text to the center of the element*/
+    font-family: Google Sans Code;
+    /*font family will chage the font of the text in the element here it is to google sans code*/
+}
+
+.text_top {
+    width: 50%;
+    /*The width property sets how wide an element is.*/
+}
+
+.text_top h2 {
+    font-size: 40px;
+    /*this property changes the font size of text inside the element*/
+    font-weight: bold;
+    /*this property changes how bold the text is in an element high value means more bolder*/
+}

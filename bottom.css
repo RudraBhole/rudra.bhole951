@@ -1,0 +1,149 @@
+/*any element which starts with a '.' / dot is a class in html*/
+
+/*here i am importing fonts from google fonts for the procedure please check my website*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+/*here I am styling the attribute class in this case it is bottom*/
+.bottom {
+    margin: 80px 5%;
+    /*margin is the space outside an element's border*/
+    font-family: Google Sans Code;
+    /*font family will chage the font of the text in the element here it is to google sans code*/
+}
+
+
+.bottom h2 {
+    text-align: center;
+    /*this property aligns all the text to the center of the element*/
+    margin-bottom: 30px;
+    /*margin is the space outside an element's border, here it is below the element*/
+}
+
+/*here I am styling the attribute class in this case it is all_content*/
+.all_content {
+    display: flex;
+    /*this property sets the display to a flex container which is modern for coding, it is like inline-block 
+    but with more customizability*/
+    gap: 20px;
+    /*this property puts a 20px gap between each element, only works if display is flex*/
+}
+
+/*here I am styling the attribute class in this case it is left-col*/
+.left-col {
+    width: 40%;
+    /*The width property sets how wide an element is.*/
+    padding: 20px;
+    /*padding is the space inside an element's border*/
+    text-align: left;
+    /*this property aligns all the text to the left of the element*/
+    margin-left: 100px;
+    /*margin is the space outside an element's border, here it is to the left of the element*/
+}
+
+/*here I am styling the attribute class in this case it is divider*/
+.divider {
+    width: 100px;
+    /*The width property sets how wide an element is.*/
+}
+
+/*here I am styling the attribute class in this case it is right-col*/
+.right-col {
+    width: 60%;
+    /*The width property sets how wide an element is.*/
+    padding: 20px;
+    /*padding is the space inside an element's border*/
+    text-align: left;
+    /*this property aligns all the text to the left of the element*/
+}
+
+/*here I am styling the attribute class in this case it is exaple_image*/
+.example_image {
+    text-align: center;
+    /*this property aligns all the text to the center of the element*/
+    padding: 20px;
+    /*padding is the space inside an element's border*/
+}
+
+.example_image img {
+    width: 80%;
+    /*The width property sets how wide an element is.*/
+    height: auto;
+    /*this property makes the element automaticaly as tall as needed*/
+    border: 3px solid black;
+    /*this property adds a 2 pixel straight black broder around the element*/
+    border-radius: 5px;
+    /*this property adds a rounding to the element's border, making it more round*/
+    padding: 10px;
+    /*padding is the space inside an element's border*/
+    aspect-ratio: 16 / 9;
+    /*this locks the element in the ratio 16/9 for images*/
+    object-fit: contain;
+    /*as this is a image object fit is how the image will behave, and contain is whatever resolution we have given to the image at the top it will try 
+        to make as much space as possible while not streaching, if we remove this the images would strech, this doen't crop the image at all, it will leave some white space*/
+}
+
+.right-col p {
+    font-size: large;
+    /*this property changes the font size of text inside the element*/
+}
+
+
+/*here I am styling the attribute class in this case it is buttons*/
+.buttons {
+    display: flex;
+    /*this property sets the display to a flex container which is modern for coding, it is like inline-block 
+    but with more customizability*/
+    justify-content: space-between;
+    /*this property aligns all the items such as images, buttons etc to have space between them equaly, of the element*/
+    margin-top: 30px;
+    /*margin is the space outside an element's border, here it is to the top of the element*/
+    padding: 0 20px;
+    /*padding is the space inside an element's border*/
+}
+
+/*here I am styling the attribute class in this case it is prev-tbn and next-btn*/
+.prev-btn,
+.next-btn {
+    padding: 10px 20px;
+    /*padding is the space inside an element's border*/
+    font-size: 16px;
+    /*this property changes the font size of text inside the element*/
+    background-color: #5dc5ff;
+    /*this property sets the background color to a light blue*/
+    font-family: Google Sans Code;
+}
+
+/*here I am styling the attribute class in this case it is playground_bottom*/
+.playground_bottom {
+    margin-left: 720px;
+    /*margin is the space outside an element's border, here it is to the left of the element*/
+    /*margin right should be 720 for big screens*/
+    /*margin right should be 720 for big screens*/
+    padding: 8px 16px;
+    /*padding is the space inside an element's border*/
+    background-color: #5dc5ff;
+    /*this property sets the background color to a light blue*/
+    color: black;
+    /*this property changes the color of text inside the element*/
+    text-decoration: none;
+    /*this property can add underlines, oveline and other decorations to the text, here it 
+    is none because a tag sets a automatic underline decor that we don't want*/
+    font-size: 14px;
+    /*this property changes the font size of text inside the element*/
+    text-align: center;
+    /*this property aligns all the text to the center of the element*/
+    font-family: Google Sans Code;
+}
+
+/*this is the h4 tag in html*/
+h4 {
+    text-align: center;
+    /*this property aligns all the text to the center of the element*/
+}
+
+/*this is the span tag in html*/
+span {
+    color: #0076bf;
+    /*this property changes the color of text inside the element*/
+}

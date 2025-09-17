@@ -1,0 +1,734 @@
+<!DOCTYPE html><!--Defines that the type of document is an html file-->
+<html>
+<!--the tag <html> defines that we are coding in html, other examples of tags with different languages include <style> and <script>-->
+
+<head><!--head tag to declare other tags like title and links to stylesheets-->
+    <title>Code Panda</title>
+    <!--title tag to give a title to our webpage, which will be visible on the top right of a browser's tab-->
+    <link rel="stylesheet" href="navbar.css">
+    <!--link tag which is linking the relatipnship 'stylesheet' to navbar.css adding css to our html page-->
+    <link rel="stylesheet" href="footer.css">
+    <!--link tag which is linking the relatipnship 'stylesheet' to footer.css adding css to our html page-->
+    <link rel="stylesheet" href="top.css">
+    <!--link tag which is linking the relatipnship 'stylesheet' to top.css adding css to our html page-->
+    <link rel="stylesheet" href="middle.css">
+    <!--link tag which is linking the relatipnship 'stylesheet' to middle.css adding css to our html page-->
+    <link rel="stylesheet" href="bottom.css">
+    <!--link tag which is linking the relatipnship 'stylesheet' to bottom.css adding css to our html page-->
+</head><!--end of head tag-->
+
+<body><!--the body tag contains all the information which will be visible on the webpage-->
+
+
+    <nav> <!--the nav tag defines the navigation section of the webpage-->
+
+        <!--the 'a' tag can link other webpages local or global, here href="#sidebar" links an element on the same page instead of going on another page 
+        like a sidebar menu, having a page inside a page which we can set the width in css, class is an attribute that groups elements which can be styled
+         in css, and &#9776; is a symbol for the hamburger menu (3 lines)-->
+        <a href="#sidebar" class="menu">&#9776;</a>
+
+        <!--the 'a' tag can link other webpages local or global here it is linking to the home page index.html class is an attribute that groups elements 
+        which can be styled in css, the strong tag will make the text inside bold-->
+        <a href="index.html" class="logo"><strong>Code Panda</strong></a>
+
+        <!--the button tag adds a button on the screen which we can style with padding to make it bigger, class is an attribute that groups elements which
+         can be styled in css, the next part is of js script, on click meaning, when clicked the button, it will take you to another page, the location of
+          that page set with location.href='playground.html' and 'playground writen inside the button making the user know where this buttong takes him'-->
+        <button class="playground" onclick="location.href='playground.html'">Playground</button>
+    </nav><!--end of the navbar element-->
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, and id is an attribute that uniqiely targets a single
+    element for styling or js, the id sidebar is the other page which opens in the same page, inside of this div is what the other page is(sidebar) the links
+    and h3 tags, look at lines 26-29 for the info of another page. class is an attribute that groups elements which can be styled in css. -->
+    <div id="sidebar" class="sidebar">
+
+        <!--the 'a' tag can link other webpages local or global here it is acting as a placeholder link, class is an attribute that groups elements which can
+        be styled in css, the symbol &times; is a times sybol (math) now acting like a close buttom, when this is pressed the href will link to the stylesheet
+         and will close the sidebar-->
+        <a href="#" class="close-btn">&times;</a>
+        <h3>HTML</h3> <!--the h3 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+        <a href="HTML_structure.html">HTML Structure</a>
+        <!--the 'a' tag can link other webpages local or global here it is linking to the HTML_struncture page-->
+        <a href="HTML_basic.html">HTML
+            Basics</a><!--the 'a' tag can link other webpages local or global here it is linking to the HTML_basic page-->
+
+        <h3>CSS</h3><!--the h3 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+        <a href="CSS_structure.html">CSS Structure</a>
+        <!--the 'a' tag can link other webpages local or global here it is linking to the css_structure page-->
+        <a href="lets_get_fancy.html">Lets Get
+            Fancy</a><!--the 'a' tag can link other webpages local or global here it is linking to the lets get fancy page page-->
+        <a href="images.html">Images</a>
+        <!--the 'a' tag can link other webpages local or global here it is linking to the images page-->
+        <a href="fonts.html">Fonts</a>
+        <!--the 'a' tag can link other webpages local or global here it is linking to the Fonts page-->
+
+        <h3>Other</h3><!--the h3 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+        <a href="tips.html">Tips</a>
+        <!--the 'a' tag can link other webpages local or global here it is linking to the tips page, please visit.-->
+        <a href="resources.html">Extra Resources</a>
+        <!--the 'a' tag can link other webpages local or global here it is linking to the recources page-->
+
+        <!--the button tag adds a button on the screen which we can style with padding to make it bigger, class is an attribute that groups elements which
+         can be styled in css, the next part is of js script, on click meaning, when clicked the button, it will take you to another page, the location of
+          that page set with location.href='playground.html' and 'playground writen inside the button making the user know where this buttong takes him'-->
+        <button class="playground_side" onclick="location.href='playground.html'">Playground</button>
+    </div><!--end of the div tag-->
+
+
+
+
+
+
+
+
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the top most section of the learning section-->
+    <div class="content_top">
+
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the top text with the heading and paragraphs, i had an image in another div below this div but i removed that image
+            thats why i have this div.-->
+        <div class="text_top">
+            <h2>Lets Get Fancy</h2>
+            <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+
+            <!--the p tag is used to group and display blocks of text on a webpage. it helps in organizing content, class is an attribute that groups elements 
+            which can be styled in css.-->
+            <p class="info_top">
+                In learning HTML basics, you'll discover the essential tags that form the foundation of every webpage.
+                These tags are like the visible “building blocks” or physical evidence of the site — they tell the
+                browser what to show, such as headings, paragraphs, images, links, and other content. Understanding
+                these tags helps you structure your page clearly so visitors can easily read and navigate it.
+
+
+            </p><!--end of the p tag-->
+        </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+
+
+
+
+
+
+    <br><!--the br tag is the next line in the webpage-->
+    <br><!--the br tag is the next line in the webpage-->
+    <br><!--the br tag is the next line in the webpage-->
+
+
+
+
+
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the middle section of the page where all the learning is contained-->
+    <div class="middle">
+        <h2>color:</h2>
+        <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+        <br><!--the br tag is the next line in the webpage-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="explanation">
+
+            <!--the p tag is used to group and display blocks of text on a webpage. it helps in organizing content, &lt; and &gt;is the symbol 
+                for '<'and '>' respectively because when we do < it becomes a tag, the strong tag makes things bold and the span tag is a container to be easily
+                styled inside of css, the em tag italics the text inside of it.-->
+            <p>
+                Let's add some colour! You can colour text with the <strong>color</strong>
+                property.<br><br><!--the br tag is the next line in the webpage-->
+                <span>h1 {</span><br><!--the br tag is the next line in the webpage-->
+                color: deeppink;<br><!--the br tag is the next line in the webpage-->
+                <span>}</span><br><br><!--the br tag is the next line in the webpage-->
+                The value <strong>deeppink</strong> is a colour name. It looks like
+                this:<br><br><!--the br tag is the next line in the webpage-->
+                CSS has lots of colour names. There are all the common colours, like black, red and yellow. There are
+                also some interesting colour names, like papayawhip or
+                peachpuff!<br><br><!--the br tag is the next line in the webpage-->
+                You can find the full list of named colours you can use <a
+                    href="https://www.w3.org/TR/css-color-3/#svg-color">here</a>. Try them out above!
+            </p><!--end of the p tag-->
+        </div><!--end of the div tag-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="image_content">
+            <!--the img tag add images to websites. here src means source, so it is sourceing the image hich is present, following. 
+    The alt text shows up when a browser can't find an image file.-->
+            <img src="color_property.png" alt="a picture of the the words 'heading' in the color deep pink">
+        </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the middle section of the page where all the learning is contained-->
+    <div class="middle">
+        <h2>background-color:</h2>
+        <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+        <br><!--the br tag is the next line in the webpage-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="image_content">
+            <!--the img tag add images to websites. here src means source, so it is sourceing the image hich is present, following. 
+    The alt text shows up when a browser can't find an image file.-->
+            <img src="background-color_property.png"
+                alt="an image of a sentence which's background color is orange like a highling">
+        </div><!--end of the div tag-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="explanation">
+
+            <!--the p tag is used to group and display blocks of text on a webpage. it helps in organizing content, &lt; and &gt;is the symbol 
+                for '<'and '>' respectively because when we do < it becomes a tag, the strong tag makes things bold and the span tag is a container to be easily
+                styled inside of css, the em tag italics the text inside of it.-->
+            <p>
+                The <strong>background-color</strong> property adds colour behind
+                elements.<br><!--the br tag is the next line in the webpage-->
+                You can give it the same colour names as the color
+                property.<br><br><!--the br tag is the next line in the webpage-->
+                <span>p {</span><br><!--the br tag is the next line in the webpage-->
+                background-color: orange;<br><!--the br tag is the next line in the webpage-->
+                <span>}</span>
+            </p><!--end of the p tag-->
+        </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+
+
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the middle section of the page where all the learning is contained-->
+    <div class="middle">
+        <h2>width:</h2>
+        <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+        <br><!--the br tag is the next line in the webpage-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="explanation">
+
+            <!--the p tag is used to group and display blocks of text on a webpage. it helps in organizing content, &lt; and &gt;is the symbol 
+                for '<'and '>' respectively because when we do < it becomes a tag, the strong tag makes things bold and the span tag is a container to be easily
+                styled inside of css, the em tag italics the text inside of it.-->
+            <p>
+                <strong>CSS width Property</strong><br><!--the br tag is the next line in the webpage-->
+                The width property sets how wide an element is. By default, elements like paragraphs or headings stretch
+                to fill the available space. You can make them narrower by specifying a width in pixels, percentages, or
+                other units.<br><br><!--the br tag is the next line in the webpage-->
+
+                <span>p {</span><br><!--the br tag is the next line in the webpage-->
+                width: 72px;<br><!--the br tag is the next line in the webpage-->
+                <span>}</span><br><br><!--the br tag is the next line in the webpage-->
+                This makes the paragraph only 72 pixels wide, even though it would normally take the full
+                width.<br><br><!--the br tag is the next line in the webpage-->
+                <span>&lt;p&gt;</span><br>Aunt Spiker was lean and tall and
+                bony...<br><span>&lt;/p&gt;</span><!--the br tag is the next line in the webpage-->
+            </p><!--end of the p tag-->
+        </div><!--end of the div tag-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="image_content">
+            <!--the img tag add images to websites. here src means source, so it is sourceing the image hich is present, following. 
+    The alt text shows up when a browser can't find an image file.-->
+            <img src="width_property.png"
+                alt="an image of some text only on the left side because it's width is too small">
+        </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the middle section of the page where all the learning is contained-->
+    <div class="middle">
+        <h2>height:</h2>
+        <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+        <br><!--the br tag is the next line in the webpage-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="image_content">
+
+            <!--the img tag add images to websites. here src means source, so it is sourceing the image hich is present, following. 
+    The alt text shows up when a browser can't find an image file.-->
+            <img src="height_property.png"
+                alt="an image of 3 lines spaced apart because their height is more than normal.">
+        </div><!--end of the div tag-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="explanation">
+
+            <!--the p tag is used to group and display blocks of text on a webpage. it helps in organizing content, &lt; and &gt;is the symbol 
+                for '<'and '>' respectively because when we do < it becomes a tag, the strong tag makes things bold and the span tag is a container to be easily
+                styled inside of css, the em tag italics the text inside of it.-->
+            <p>
+                CSS height Property
+                The height property sets how tall an element is. By default, elements adjust their height based on their
+                content, but you can give them a fixed height if you
+                want.<br><br><!--the br tag is the next line in the webpage-->
+                <span>p {</span><br><!--the br tag is the next line in the webpage-->
+                height: 100px;<br><!--the br tag is the next line in the webpage-->
+                <span>}</span><br><br><!--the br tag is the next line in the webpage-->
+                This makes the paragraph 100 pixels tall, even if the text inside doesn't fill that
+                space.<br><br><!--the br tag is the next line in the webpage-->
+                <span>&lt;p&gt;</span>Paragraph
+                1<span>&lt;/p&gt;</span><br><!--the br tag is the next line in the webpage-->
+                <span>&lt;p&gt;</span>Paragraph
+                2<span>&lt;/p&gt;</span><br><!--the br tag is the next line in the webpage-->
+                <span>&lt;p&gt;</span>Paragraph 3<span>&lt;/p&gt;</span>
+
+            </p><!--end of the p tag-->
+        </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the middle section of the page where all the learning is contained-->
+    <div class="middle">
+        <h2>text-align:</h2>
+        <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+        <br><!--the br tag is the next line in the webpage-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="explanation">
+
+            <!--the p tag is used to group and display blocks of text on a webpage. it helps in organizing content, &lt; and &gt;is the symbol 
+                for '<'and '>' respectively because when we do < it becomes a tag, the strong tag makes things bold and the span tag is a container to be easily
+                styled inside of css, the em tag italics the text inside of it.-->
+            <p>
+                CSS text-align Property<br><!--the br tag is the next line in the webpage-->
+                The text-align property sets how text is aligned inside an
+                element.<br><!--the br tag is the next line in the webpage-->
+                Some common values are:<br><br><!--the br tag is the next line in the webpage-->
+
+                Text alignment decides which side of a page text lines up with. Browsers set it to left by default —
+                it's so common you've probably never noticed!<br><br><!--the br tag is the next line in the webpage-->
+
+
+                <span>&lt;h1&gt;</span>A day in my
+                life<span>&lt;/h1&gt;</span><br><br><!--the br tag is the next line in the webpage-->
+                <span>&lt;p&gt;</span>The sun dipped below the horizon, painting the sky with streaks of orange and
+                pink.<span>&lt;/p&gt;</span><br><!--the br tag is the next line in the webpage-->
+                <span>&lt;p&gt;</span>A cool breeze drifted through the quiet streets as the city lights slowly
+                flickered on.<span>&lt;/p&gt;</span><br><br><!--the br tag is the next line in the webpage-->
+
+                <span>h1 {</span><br><!--the br tag is the next line in the webpage-->
+                &nbsp;&nbsp;text-align: center;<br><!--the br tag is the next line in the webpage-->
+                &nbsp;&nbsp;width: 500px;<br><!--the br tag is the next line in the webpage-->
+                <span>}</span><br><br><!--the br tag is the next line in the webpage-->
+                <span>p {</span><br><!--the br tag is the next line in the webpage-->
+                &nbsp;&nbsp;text-align: right;<br><!--the br tag is the next line in the webpage-->
+                &nbsp;&nbsp;width: 500px;<br><!--the br tag is the next line in the webpage-->
+                <span>}</span>
+
+            </p><!--end of the p tag-->
+
+        </div><!--end of the div tag-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="image_content">
+
+            <!--the img tag add images to websites. here src means source, so it is sourceing the image hich is present, following. 
+    The alt text shows up when a browser can't find an image file.-->
+            <img src="text-align_property.png"
+                alt="the heading appears in the center while the paragraphs are aligned to the right">
+        </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the middle section of the page where all the learning is contained-->
+    <div class="middle">
+        <h2>font-size:</h2>
+        <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+        <br><!--the br tag is the next line in the webpage-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="image_content">
+
+            <!--the img tag add images to websites. here src means source, so it is sourceing the image hich is present, following. 
+    The alt text shows up when a browser can't find an image file.-->
+            <img src="font-size_property.png" alt="a heading with big font and paragraph with big font too.">
+        </div><!--end of the div tag-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="explanation">
+
+            <!--the p tag is used to group and display blocks of text on a webpage. it helps in organizing content, &lt; and &gt;is the symbol 
+                for '<'and '>' respectively because when we do < it becomes a tag, the strong tag makes things bold and the span tag is a container to be easily
+                styled inside of css, the em tag italics the text inside of it.-->
+            <p>
+                CSS font-size Property<br>
+                The font-size property controls how big or small the text appears. You can set it using different units
+                such as pixels (px), em (em), or percentages (%).<br>
+
+                Browsers usually use a default font size of 16px for normal text.<br><br>
+
+
+                <span>&lt;h1&gt;</span>Morning<span>&lt;/h1&gt;</span><br><br>
+                <span>&lt;p&gt;</span>The morning air was crisp, carrying the scent of fresh rain on the
+                pavement.<span>&lt;/p&gt;</span><br><br>
+                <span>&lt;p&gt;</span>Birds chirped softly in the distance as the town slowly woke to a new
+                day.<span>&lt;/p&gt;</span><br><br>
+
+
+                <span>h1</span> <span>{</span><br>
+                &nbsp;&nbsp;font-size: 40px;<br>
+                <span>}</span><br><br>
+                <span>p</span> <span>{</span><br>
+                &nbsp;&nbsp;font-size: 18px;<br>
+                <span>}</span>
+
+
+            </p><!--end of the p tag-->
+        </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+
+
+
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the middle section of the page where all the learning is contained-->
+    <div class="middle">
+        <h2>margin:</h2>
+        <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+        <br><!--the br tag is the next line in the webpage-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="explanation">
+
+            <!--the p tag is used to group and display blocks of text on a webpage. it helps in organizing content, &lt; and &gt;is the symbol 
+                for '<'and '>' respectively because when we do < it becomes a tag, the strong tag makes things bold and the span tag is a container to be easily
+                styled inside of css, the em tag italics the text inside of it.-->
+            <p>
+                So far, all our content has been going right up to the edges of the page. Adding space around content
+                makes it easier to read, and more visually appealing<br><br>
+
+                You can add space around content using margins.<br>
+                Here, we've add 50 pixels of space on the left of p elements with margin-left.<br><br>
+
+                <span>p {</span><br>
+                margin-left: 50px;<br>
+                width: 400px;<br>
+                <span>}</span><br><br><br><br>
+                What if we want to add margins to all sides but don't want to write out all four margin properties?<br>
+                We can add margins on all sides at once with the shorthand property margin.<br>
+                If you give it just one value, like the example below, it sets all four margins to that value:<br><br>
+
+                <span>&lt;link</span> rel="stylesheet" href="main.css"<span>&gt;</span><br>
+                <span>&lt;p&gt;</span>I'm not touching you!<span>&lt;p&gt;</span><br>
+                <span>&lt;p&gt;</span>You're touching me!<span>&lt;p&gt;</span><br><br>
+
+                <span>p {</span><br>
+                margin: 50px;<br>
+                <span>}</span>
+            </p><!--end of the p tag-->
+        </div><!--end of the div tag-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="image_content">
+
+            <!--the img tag add images to websites. here src means source, so it is sourceing the image hich is present, following. 
+    The alt text shows up when a browser can't find an image file.-->
+            <img src="margin_property_1.png" alt="and image with a paragraph which has moved to the left">
+
+            <!--the img tag add images to websites. here src means source, so it is sourceing the image hich is present, following. 
+    The alt text shows up when a browser can't find an image file.-->
+            <img src="margin_property_2.png" alt="two texts which have moved 50 px in all directions">
+        </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the middle section of the page where all the learning is contained-->
+    <div class="middle">
+        <h2>padding:</h2>
+        <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+        <br><!--the br tag is the next line in the webpage-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="explanation">
+
+            <!--the p tag is used to group and display blocks of text on a webpage. it helps in organizing content, &lt; and &gt;is the symbol 
+                for '<'and '>' respectively because when we do < it becomes a tag, the strong tag makes things bold and the span tag is a container to be easily
+                styled inside of css, the em tag italics the text inside of it.-->
+            <p>
+                We can use padding to create space around the content inside the border of an element.<br>
+
+                Our content often looks better when it's not squished up against the border.<br>
+
+                You don't need to have a visible border to use padding, but it makes the effect easier to see.<br><br>
+
+                <span>&lt;p&gt;</span>
+                The little garden was full of daisies swaying gently in the breeze.
+                <span>&lt;/p&gt;</span><br><br>
+
+                <span>p</span> <span>{</span><br>
+                padding: 20px;<br>
+                border: 2px solid green;<br>
+                <span>}</span>
+
+
+            </p><!--end of the p tag-->
+
+        </div><!--end of the div tag-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="image_content">
+
+            <!--the img tag add images to websites. here src means source, so it is sourceing the image hich is present, following. 
+    The alt text shows up when a browser can't find an image file.-->
+            <img src="padding_property.png" alt="padding has a more open border whereas no padding is claustraphobic">
+        </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+
+
+
+
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the bottom section of the learning pages-->
+    <div class="bottom">
+        <h2>How it looks all together</h2>
+        <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css.-->
+        <div class="all_content">
+
+            <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the left coulumn-->
+            <div class="left-col">
+                <h3>Discription of the code and how it works</h3>
+                <!--the h3 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+
+                <!--the p tag is used to group and display blocks of text on a webpage. it helps in organizing content, &lt; and &gt;is the symbol 
+                for '<'and '>' respectively because when we do < it becomes a tag, the strong tag makes things bold and the span tag is a container to be easily
+                styled inside of css, the em tag italics the text inside of it.-->
+                <p>
+                    This is a minimal HTML webpage for a cafe called “My Cozy Cafe.” It includes a centered heading, two
+                    paragraphs with styled text, and uses CSS to control layout, colors, fonts, spacing, and
+                    borders.<br><br>
+
+                    HTML Tags<br><br>
+
+                    <span>&lt;!DOCTYPE html&gt;</span> - Declares the document type as HTML5.<br>
+                    <span>&lt;html&gt;</span> - The root element that contains all HTML content.<br>
+                    <span>&lt;head&gt;</span> - Contains meta-information and resources like the title.<br>
+                    <span>&lt;title&gt;</span> - Sets the title of the webpage shown in the browser tab.<br>
+                    <span>&lt;body&gt;</span> - Contains the visible content of the webpage.<br>
+                    <span>&lt;h1&gt;</span> - Main heading of the page, used for the title.<br>
+                    <span>&lt;p&gt;</span> - Paragraph of text.<br>
+                    <span>&lt;strong&gt;</span> - Makes text bold to indicate importance.<br>
+                    <span>&lt;em&gt;</span> - Italicizes text to emphasize it.<br>
+                    <span>&lt;br&gt;</span> - Inserts a line break within text.<br>
+                    <span>&lt;style&gt;</span> - Contains internal CSS styles for the page.<br><br>
+
+                    CSS Properties<br><br>
+
+                    <span>background-color</span> - Sets the background color of an element.<br>
+                    <span>color</span> - Sets the text color of an element.<br>
+                    <span>margin</span> - Creates space outside the element (around it).<br>
+                    <span>padding</span> - Creates space inside the element, between content and border.<br>
+                    <span>width</span> - Sets the width of an element.<br>
+                    <span>height</span> - Sets the height of an element.<br>
+                    <span>text-align</span> - Aligns text horizontally (left, center, right).<br>
+                    <span>font-size</span> - Sets the size of the text.<br>
+                    <span>border</span> - Adds a visible border around an element.
+
+                </p><!--end of the p tag-->
+            </div><!--end of the div tag-->
+
+            <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the divider between code and explaination-->
+            <div class="divider"></div>
+            <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the right coulumn-->
+            <div class="right-col">
+
+                <!--the p tag is used to group and display blocks of text on a webpage. it helps in organizing content, &lt; and &gt;is the symbol 
+                for '<'and '>' respectively because when we do < it becomes a tag, the strong tag makes things bold and the span tag is a container to be easily
+                styled inside of css, the em tag italics the text inside of it.-->
+                <p>
+                    <span>&lt;!DOCTYPE html&gt;</span><br><!--the br tag is the next line in the webpage-->
+                    <span>&lt;html&gt;</span><br><br><!--the br tag is the next line in the webpage-->
+
+                    <span>&lt;head&gt;</span><br><!--the br tag is the next line in the webpage-->
+                    <span>&lt;title&gt;</span>My Cozy
+                    Cafe<span>&lt;/title&gt;</span><br><!--the br tag is the next line in the webpage-->
+                    <span>&lt;/head&gt;</span><br><br><!--the br tag is the next line in the webpage-->
+
+                    <span>&lt;body&gt;</span><br><br><!--the br tag is the next line in the webpage-->
+
+                    <span>&lt;h1&gt;</span>Welcome to The Cozy
+                    Cafe<span>&lt;/h1&gt;</span><br><br><!--the br tag is the next line in the webpage-->
+
+                    <span>&lt;p&gt;</span><br><!--the br tag is the next line in the webpage-->
+                    Start your day with our <span>&lt;strong&gt;</span>freshly brewed coffee<span>&lt;/strong&gt;</span>
+                    and<br><!--the br tag is the next line in the webpage-->
+                    homemade pastries.<br><!--the br tag is the next line in the webpage-->
+                    Every morning, we serve a selection of <span>&lt;em&gt;</span>organic teas<span>&lt;/em&gt;</span>
+                    and baked treats.<br><!--the br tag is the next line in the webpage-->
+                    <span>&lt;/p&gt;</span><br><br><!--the br tag is the next line in the webpage-->
+
+                    <span>&lt;p&gt;</span><br><!--the br tag is the next line in the webpage-->
+                    Relax in our warm and inviting space, enjoy a <span>&lt;strong&gt;</span>quiet
+                    corner<span>&lt;/strong&gt;</span><br><!--the br tag is the next line in the webpage-->
+                    with a book, or catch up with friends over a cup of your favorite
+                    drink.<br><!--the br tag is the next line in the webpage-->
+                    <span>&lt;/p&gt;</span><br><br><!--the br tag is the next line in the webpage-->
+
+                    <span>&lt;style&gt;</span><br><!--the br tag is the next line in the webpage-->
+                    <span>body</span> <span>{</span><br><!--the br tag is the next line in the webpage-->
+                    background-color: #fdf6e3;<br><!--the br tag is the next line in the webpage-->
+                    margin: 40px;<br><!--the br tag is the next line in the webpage-->
+                    font-size: 18px;<br><!--the br tag is the next line in the webpage-->
+                    color: #333;<br><!--the br tag is the next line in the webpage-->
+                    <span>}</span><br><br><!--the br tag is the next line in the webpage-->
+
+                    <span>h1</span> <span>{</span><br><!--the br tag is the next line in the webpage-->
+                    color: #b5651d;<br><!--the br tag is the next line in the webpage-->
+                    text-align: center;<br><!--the br tag is the next line in the webpage-->
+                    font-size: 36px;<br><!--the br tag is the next line in the webpage-->
+                    margin-bottom: 25px;<br><!--the br tag is the next line in the webpage-->
+                    <span>}</span><br><br><!--the br tag is the next line in the webpage-->
+
+                    <span>p</span> <span>{</span><br><!--the br tag is the next line in the webpage-->
+                    width: 450px;<br><!--the br tag is the next line in the webpage-->
+                    height: 150px;<br><!--the br tag is the next line in the webpage-->
+                    padding: 20px;<br><!--the br tag is the next line in the webpage-->
+                    margin: 20px 0 20px 350px;<br><!--the br tag is the next line in the webpage-->
+                    background-color: #fff3e0;<br><!--the br tag is the next line in the webpage-->
+                    color: #4e342e;<br><!--the br tag is the next line in the webpage-->
+                    text-align: center;<br><!--the br tag is the next line in the webpage-->
+                    font-size: 18px;<br><!--the br tag is the next line in the webpage-->
+                    border: 4px solid #b5651d;<br><!--the br tag is the next line in the webpage-->
+                    <span>}</span><br><!--the br tag is the next line in the webpage-->
+                    <span>&lt;/style&gt;</span><br><br><!--the br tag is the next line in the webpage-->
+
+                    <span>&lt;/body&gt;</span><br><br><!--the br tag is the next line in the webpage-->
+                    <span>&lt;/html&gt;</span>
+                </p><!--end of the p tag-->
+            </div><!--end of the div tag-->
+        </div><!--end of the div tag-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the result-->
+        <div class="example_image">
+
+            <!--the img tag add images to websites. here src means source, so it is sourceing the image hich is present, following. 
+    The alt text shows up when a browser can't find an image file.-->
+            <img src="lets_get_fancy_bottom.png"
+                alt="how it looks all together, if your image is not loading you can copy the code above and paste it in playground to see the result, im too lazy to explain this image.">
+        </div><!--end f the div tag-->
+        <h4>Try it out yourself</h4>
+        <!--the h4 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+
+        <!--the button tag adds a button on the screen which we can style with padding to make it bigger, class is an attribute that groups elements which
+         can be styled in css, the next part is of js script, on click meaning, when clicked the button, it will take you to another page, the location of
+          that page set with location.href='playground.html' and 'playground writen inside the button making the user know where this buttong takes him'-->
+        <button class="playground_bottom" onclick="location.href='playground.html'">Playground</button>
+    </div><!--end of the div tag-->
+    </div><!--end of the div tag-->
+
+    <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the result-->
+    <div class="buttons">
+
+        <!--the button tag adds a button on the screen which we can style with padding to make it bigger, class is an attribute that groups elements which
+         can be styled in css, the next part is of js script, on click meaning, when clicked the button, it will take you to another page, the location of
+          that page set with location.href='the previous page in the sequence of the sidebar' and previous writen inside the button making the user know where this buttong takes them-->
+        <button class="prev-btn" onclick="location.href='CSS_structure.html'">Previous</button>
+
+        <!--the button tag adds a button on the screen which we can style with padding to make it bigger, class is an attribute that groups elements which
+         can be styled in css, the next part is of js script, on click meaning, when clicked the button, it will take you to another page, the location of
+          that page set with location.href='the next page in the sequence of the sidebar' and next writen inside the button making the user know where this buttong takes them-->
+        <button class="next-btn" onclick="location.href='images.html'">Next</button>
+    </div><!--end of the div tag-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <!--like the body the footer is the bottom section of a webpage storing copyright info and other important links-->
+
+        <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+        which can be styled in css. this is the first section of the three columns in the footer-->
+        <div class="footer">
+
+            <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+        which can be styled in css. here it is containing all the contents of the footer-->
+            <div class="content-footer">
+                <h2>Credits</h2>
+                <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+                <ul>Website development: Rudra Bhole</ul>
+                <!--ul is un ordered list which means it will con contain that dot in front of ordered lists it will automaticaly do to the next line-->
+                <ul>Knowledge: Rudra Bhole</ul>
+                <!--ul is un ordered list which means it will con contain that dot in front of ordered lists it will automaticaly do to the next line-->
+                <ul>Image editing: Canva</ul>
+                <!--ul is un ordered list which means it will con contain that dot in front of ordered lists it will automaticaly do to the next line-->
+            </div><!--end of the div-->
+
+
+            <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the second section of the three columns in the footer-->
+            <div class="content-footer">
+                <h2>Extra Resources</h2>
+                <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+
+                <!--ul is un ordered list which means it will con contain that dot in front of ordered lists it will automaticaly do to the next line,
+                the 'a' tag can link other webpages local or global here it is linking to the tips page -->
+                <ul><a href="tips.html">Tips</a></ul>
+
+                <!--ul is un ordered list which means it will con contain that dot in front of ordered lists it will automaticaly do to the next line,
+                the 'a' tag can link other webpages local or global here it is linking to the post images global website-->
+                <ul><a href="https://postimages.org/">Image Link Generator</a></ul>
+
+                <!--ul is un ordered list which means it will con contain that dot in front of ordered lists it will automaticaly do to the next line,
+                the 'a' tag can link other webpages local or global here it is linking to a 14 hour long youtube video, which you should DEFIITELY watch,
+                which is a global website-->
+                <ul><a href="https://www.youtube.com/watch?v=bWACo_pvKxg">HTML Course</a></ul>
+
+                <!--ul is un ordered list which means it will con contain that dot in front of ordered lists it will automaticaly do to the next line,
+                the 'a' tag can link other webpages local or global here it is linking to the google fonts global website-->
+                <ul><a href="https://fonts.google.com/">Google Fonts</a></ul>
+            </div><!--end of the div tag-->
+
+            <!--a div is a container to group parts of your projects together so it can be easier for styling, class is an attribute that groups elements 
+            which can be styled in css. this is the third section of the three columns in the footer-->
+            <div class="content-footer">
+                <h2>Thanks to:</h2>
+                <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+                <ul>Mrs Claire Merchant</ul>
+                <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+                <ul>Grok Learning</ul>
+                <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+                <ul>W3schools</ul>
+                <!--the h2 tag is a heading popping up and serving the purpose of the user knowing what it does-->
+            </div><!--end of the div tag-->
+        </div><!--end of the div tag footer-->
+    </footer><!--end of footer-->
+
+</body><!--end of the body tag-->
+
+</html><!--end of the html tag-->

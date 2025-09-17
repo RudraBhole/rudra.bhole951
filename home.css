@@ -1,0 +1,127 @@
+/*any element which starts with a '.' / dot is a class in html*/
+
+/*here i am importing fonts from google fonts for the procedure please check my website*/
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*here I am styling the attribute class in this case it is thumbnail*/
+.thumbnail {
+    width: 100%;
+    /*margin is the space outside an element's border*/
+    display: block;
+    /*display is how the element will behave when displayed, every element will start on a new line below it, like how it is in the side bar*/
+    height: auto;
+    /*this property makes the element automaticaly adjust the height*/
+    margin-top: 60px;
+    /*margin is the space outside an element's border, here it is top the element*/
+    overflow: hidden;
+    /*here the overflow means if the element is too big like the image, the overflowing part will get hidden*/
+    object-fit: cover;
+    /*as this is a image object fit is how the image will behave, and cover will make the image not streach, this will crop the image so it fits in the dimentions*/
+
+}
+
+/*here I am styling the attribute class in this case it is line*/
+.line {
+    border-bottom: 2px solid black;
+    /*this property adds a 2 pixel straight black broder to the bottom of the element*/
+    width: 90%;
+    /*margin is the space outside an element's border*/
+    margin-top: 50px;
+    /*margin is the space outside an element's border, here it is below the element*/
+    text-align: center;
+    /*this property aligns all the text to the center of the element*/
+
+}
+
+hr {
+    border: none;
+    /*this property adds no border to the element*/
+}
+
+/*here I am styling the attribute class in this case it is skills*/
+.skills {
+    text-align: center;
+    /*this property aligns all the text to the center of the element*/
+}
+
+/*here I am styling the attribute class in this case it is skill-card*/
+.skill-card {
+    display: inline-block;
+    /*display is how the element will behave when displayed, every element will start on the same line and then group into chunks which can be styled easily*/
+    width: 30%;
+    /*The width property sets how wide an element is.*/
+    margin: 10px;
+    /*margin is the space outside an element's border*/
+}
+
+/*here I am styling the attribute class in this case it is the div 'skill-card' and inside that specific div the img tag, so not all img tags
+get that property*/
+.skill-card img {
+    width: 300px;
+    /*The width property sets how wide an element is.*/
+    height: 300px;
+    /*this property makes the element 300 px tall,*/
+}
+
+/*here I am styling the attribute class in this case it is the div 'skill-card' and inside that specific div the h2 tag, so not all h2 tags
+get that property*/
+.skill-card h2 {
+    margin-top: 10px;
+    /*margin is the space outside an element's border, here it is top the element*/
+    font-family: Google Sans Code;
+    /*font family will chage the font of the text in the element here it is to google sans code*/
+}
+
+/*here I am styling the attribute class in this case it is the div 'skill-card'and 'start-container' inside that the h1 tags (both) are getting styled, so not all h1 tags
+get that property*/
+.skill h1,
+.start-container h1 {
+    text-align: center;
+    /*this property aligns all the text to the center of the element*/
+    font-family: Google Sans Code;
+    /*font family will chage the font of the text in the element here it is to google sans code*/
+}
+
+/*here I am styling the attribute class in this case it is start-container*/
+.start-container {
+    display: flex;
+    /*this property sets the display to a flex container which is modern for coding, it is like inline-block 
+    but with more customizability*/
+    flex-direction: column;
+    /*normaly in display flex, elements go left to right in a row, but this makes that elements go top to bottom in a column*/
+    justify-content: center;
+    /*this property aligns all the items such as images, buttons etc to the center of the element*/
+    align-items: center;
+    /*this property aligns all the items to the center of the element*/
+    margin-top: 20px;
+    /*margin is the space outside an element's border, here it is top the element*/
+}
+
+/*here I am styling the attribute class in this case it is start-menu*/
+.start-button {
+    font-size: 32px;
+    /*this property changes the font size of text inside the element*/
+    padding: 20px 40px;
+    /*padding is the space inside an element's border*/
+    background-color: #5dc5ff;
+    /*this property sets the background color to a medium blue*/
+    color: black;
+    /*this property changes the color of text inside the element*/
+    text-decoration: none;
+    /*this property can add underlines, oveline and other decorations to the text, here it 
+    is none because a tag sets a automatic underline decor that we don't want*/
+    border: none;
+    /*this property adds no border to the element*/
+    border-radius: 10px;
+    /*this property adds a rounding to the element's border, making it more round*/
+    margin-top: 10px;
+    /*margin is the space outside an element's border, here it is top the element*/
+    font-family: Google Sans Code;
+    /*font family will chage the font of the text in the element here it is to google sans code*/
+}
+
+/*here I am styling the attribute class in this case it is start-button, and :hover means when the user hover's over the element*/
+.start-button:hover {
+    transform: scale(1.05);
+    /*the element will transform in scale by 1.05*/
+}
