@@ -116,9 +116,9 @@
 
 /*here I am styling the attribute class in this case it is playground_bottom*/
 .playground_bottom {
-    margin-left: 720px;
+    margin-left: 800px;
     /*margin is the space outside an element's border, here it is to the left of the element*/
-    /*margin right should be 720 for big screens*/
+    /*margin right should be 800 for big screens*/
     /*margin right should be 720 for big screens*/
     padding: 8px 16px;
     /*padding is the space inside an element's border*/
@@ -146,4 +146,5 @@ h4 {
 span {
     color: #0076bf;
     /*this property changes the color of text inside the element*/
+
 }
