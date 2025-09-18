@@ -37,9 +37,9 @@ iframe {
 /*here I am styling the attribute class in this case it is the div 'main-content' which is whatevers between sidebar and footer,
 and inside that specific the button tag, so not all button tags get that property*/
 .main-content button {
-    margin-left: 790px;
+    margin-left: 870px;
     /*margin is the space outside an element's border, here it is to the left of the element*/
-    /*margin left is 790px for the big screen*/
+    /*margin left is 870px for the big screen*/
     /*margin left is 560px for the small screen*/
     margin-top: 40px;
     /*margin is the space outside an element's border, here it is to the top of the element*/
@@ -79,8 +79,9 @@ and inside that specific the h1 tag, so not all h1 tags get that property*/
 
 /*this is the audio tag in html*/
 audio {
-    margin-left: 700px;
+    margin-left: 800px;
     /*margin is the space outside an element's border, here it is to the left of the element*/
-    /*margin on big screen is 700px;*/
+    /*margin on big screen is 870px;*/
     /*margin on small screen is 480px;*/
+
 }
